@@ -7,11 +7,6 @@ const jerryMass = 45;
 const tomBMI = (tomMass/(Math.pow(tomHeight, 2)));
 const jerryBMI = (jerryMass/(Math.pow(jerryHeight, 2)));
 
-let greater;
-if (tomBMI > jerryBMI) {
-    greater = true;
-} else {
-    greater
-}
+const greater =  tomBMI > jerryBMI;
 
 console.log(`Is Tom's BMI higher than Jerry's? ${greater}`);
